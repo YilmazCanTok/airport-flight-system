@@ -17,7 +17,7 @@ public class SwaggerConfig {
 
     @Bean
     public Docket api() {
-        // Controller'larınızın bulunduğu doğru paket adını kullanın
+
         return new Docket(DocumentationType.SWAGGER_2).select()
                 .apis(RequestHandlerSelectors.basePackage("com.example.airportflightsystem.controller"))
                 .paths(PathSelectors.regex("/.*"))
@@ -26,7 +26,7 @@ public class SwaggerConfig {
     }
 
     private ApiInfo apiEndPointsInfo() {
-        return new ApiInfoBuilder().title("Spring Boot Swagger Examples")
+        return new ApiInfoBuilder().title("Spring Boot Swagger")
                 .description("User Api Dokümantasyonu")
                 .contact(new Contact("Yılmaz Can TOK", "", ""))
                 .license("Apache 2.0")
