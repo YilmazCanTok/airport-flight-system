@@ -112,6 +112,10 @@
 			<artifactId>guava</artifactId>
 			<version>30.1-jre</version> <!-- Güncel bir sürüm -->
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
