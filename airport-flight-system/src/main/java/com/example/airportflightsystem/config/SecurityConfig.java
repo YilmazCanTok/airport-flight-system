@@ -22,6 +22,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
+                .csrf().disable() // CSRF korumasını devre dışı bırak
                 .authorizeRequests()
                 .antMatchers("/api/flight").permitAll()
                 .antMatchers("/api/airway").permitAll()
