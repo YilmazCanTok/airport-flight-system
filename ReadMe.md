@@ -16,9 +16,9 @@ Bu projede kullanılan teknolojiler aşağıda verilmiştir.
 
 Projede kullanılabilir API'ler aşağıda belirtilmiştir:
 
-![Proje Resmi 1](src/main/resources/swagger1.png)
+![Proje Resmi 1](swagger1.png)
 
-![Proje Resmi 2](src/main/resources/swagger2.png)
+![Proje Resmi 2](swagger2.png)
 
 Burada CRUD operasyonu için gereken bütün API'lar bulunmaktadır.
 
