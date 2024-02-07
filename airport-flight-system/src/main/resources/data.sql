@@ -1,4 +1,3 @@
-/*--airway tablosu
 CREATE TABLE IF NOT EXISTS airway (
                         id SERIAL PRIMARY KEY,
                         city VARCHAR(255) NOT NULL
@@ -53,4 +52,4 @@ VALUES
     ('Istanbul', 'Tokyo', 1100, '2024-02-19 18:00:00', '2024-02-25 21:30:00'),
     ('Paris', 'Dubai', 1300, '2024-02-20 20:30:00', NULL),
     ('Toronto', 'Madrid', 900, '2024-02-21 23:15:00', '2024-02-27 12:45:00'),
-    ('London', 'Berlin', 650, '2024-02-22 07:45:00', '2024-02-28 14:00:00');*/
+    ('London', 'Berlin', 650, '2024-02-22 07:45:00', '2024-02-28 14:00:00');
