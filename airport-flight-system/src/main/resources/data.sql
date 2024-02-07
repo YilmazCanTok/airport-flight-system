@@ -1,12 +1,12 @@
 CREATE TABLE IF NOT EXISTS airway (
-                        id SERIAL PRIMARY KEY,
+                        id SERIAL UNIQUE PRIMARY KEY,
                         city VARCHAR(255) NOT NULL
 );
 
 -- flight tablosu
 
 CREATE TABLE IF NOT EXISTS flight (
-                        id SERIAL PRIMARY KEY,
+                        id SERIAL UNIQUE   PRIMARY KEY,
                         departure_airline VARCHAR(255) NOT NULL,
                         arrival_airline VARCHAR(255) NOT NULL,
                         price INT NOT NULL,

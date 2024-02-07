@@ -24,6 +24,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http
                 .authorizeRequests()
                 .antMatchers("/api/flight").permitAll()
+                .antMatchers("/api/airway").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .httpBasic();
